@@ -28,16 +28,13 @@ Having used GitHub for managing clinical safety documentation in other projects,
 
 ### Setup
 
+Use this repository as a GitHub Template by clicking **"Use this template" → "Create a new repository"** to create your own copy.
 
 ### Initial generation of clinical safety management file
 
-Create a repository on GitHub to house your new management file, as you will need this URL and the URL of the Hazard Log you want to use.
+Create a repository on GitHub to house your new management file — you will need this URL and the URL of the Hazard Log you want to use (these can both be the same repository).
 
-
-
-Enter your project-, team- and organisation-specific information in response to the command line prompts.
-
-The data you enter will be used to populate values within the template documents, and the output will be in a subfolder named according to your _slugified_ project name plus `-clinical-safety-management-file`. So a project called 'Project Mayhem' will have a slug of `project-mayhem-clinical-safety-management-file`.
+Open `variables.yml` in the root of your new repository and fill in all the placeholder values (for example `project_name`, `organisation_name`, `clinical_safety_officer_name`). These values are injected into all the template documents by the [Zensical Macros extension](https://zensical.org/docs/setup/extensions/macros/) at build time — there are no interactive command-line prompts.
 
 ### Commit to version control
 
@@ -75,7 +72,7 @@ You can edit any part of the generated documentation in a text editor. We recomm
 
 ### Online Markdown editing
 
-If you are new to Markdown editing, you can use GitHub's interface itself to edit online, by clicking the 'pencil' edit icon in the top right corner of any source code page. There are also external tools like [Prose.io](http://prose.io/) and [StackEdit](https://stackedit.io/) which give you a nice interface for editing MarkDown online, and will sync the changes with GitHub for you.
+If you are new to Markdown editing, you can use GitHub's interface itself to edit online, by clicking the 'pencil' edit icon in the top right corner of any source code page. There are also external tools like [Prose.io](http://prose.io/) and [StackEdit](https://stackedit.io/) which give you a nice interface for editing Markdown online, and will sync the changes with GitHub for you.
 
 ### Reviewing and amending
 
