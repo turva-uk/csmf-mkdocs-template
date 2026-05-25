@@ -16,6 +16,6 @@ Our Hazard Logs are managed on GitHub in the open. Details of how this works are
 
 ## Downloading this documentation as a PDF
 
-We have prepared this documentation using the tools of the modern Web (MarkDown, static HTML site generation) in order to present a linkable, searchable, interactive documentation site which is version controlled using Git and is openly available.
+We have prepared this documentation using the tools of the modern Web (Markdown, static HTML site generation) in order to present a linkable, searchable, interactive documentation site which is version controlled using Git and is openly available.
 
 We are aware that some organisations may wish to download a 'simulated paper' document such as a PDF, and for this reason we have set up the site to automatically generate a PDF version of the entire documentation, which can be downloaded [here](./download.md)

@@ -1,5 +1,3 @@
-# Hazard Log
-
 # {{ project_name }} Hazard Log
 
 In keeping with our commitment to transparency and openness, our Hazard Log is publicly visible and managed in GitHub using the Issues feature.
@@ -18,8 +16,13 @@ Instead of the more usual and somewhat outdated and chaotic 'spreadsheet' model,
 
 Most importantly, the **discussion and evidence** relating to any given risk is included in the recording of the risk. A complete history of the labelling is kept in the issue. Spreadsheet-based risk and hazard handling is inferior to this model, because spreadsheets are unsuited to discussion, text handling, and long-form discourse.
 
-> A Hazard which is _never_ recorded in any Spreadsheet-based Hazard Log is 'Accidental deletion of a Hazard before it has been mitigated/risk-eliminated', yet anyone who has used a spreadsheet knows how easy it is to accidentally delete or modify a cell or row inadvertently.
-> Put simply, a spreadsheet is a poor choice of technology for managing text and a totally unacceptable choice of technology for handling Hazards, yet it has become the industry standard across the NHS simply because the Hazard Log template issued by NHS Digital is a spreadsheet. Building and releasing an open source, free **Hazard Log management platform** would have been much a better approach, which NHS DIgital had ans still has the resources to do, but lack of understanding about the case of need limits their capability to execute on this.
+## Spreadsheets Are Harmful.
+
+Anyone who has used a spreadsheet knows how easy it is to accidentally delete or modify a cell or row inadvertently. In the context of a Hazard Log, this could lead to the accidental deletion of a Hazard, or the modification of a Hazard's severity or likelihood without any record of the change.
+
+Yet, this "meta-Hazard" of 'Accidental deletion of a Hazard before it has been mitigated/risk-eliminated' is not recorded in anyone's CSMF Hazard Log.
+
+Put simply, a spreadsheet is a poor choice of technology for managing text and in the opinion of the authors of this project, a **totally unacceptable choice of technology** for handling Hazards, yet it has become the industry standard across the NHS simply because the Hazard Log template issued by NHS Digital is a spreadsheet.
 
 ## Monitoring of Risk
 
@@ -47,7 +50,7 @@ Using the [GitHub Projects]({{ hazard_log_url }}/projects) you can create a tabu
 2. Click on New Issue
 3. Use the **Hazard Issue Template** to guide you through adding the necessary information.
 4. Label according to Severity and Likelihood, then calculate Risk Level.
-5. Assign to CSO @pacharanero.
+5. Assign to CSO @{{ clinical_safety_officer_github_handle }}.
 6. Save by 'committing' to the repository.
 7. Review and ensure complete.
 8. Invite others to review and comment using @mention or by sharing the URL

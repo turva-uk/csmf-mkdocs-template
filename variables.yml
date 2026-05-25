@@ -1,0 +1,19 @@
+# Template variables for the Clinical Safety Management File
+# Fill in all values below before building or publishing your site.
+# These are injected into the documentation by the Zensical Macros extension.
+
+author_email: "author@example.com"
+author_name: "Example Author's Name"
+clinical_safety_management_file_license: "Creative Commons CC-BY-SA4.0"
+clinical_safety_management_file_version: "1.0.0"
+clinical_safety_officer_contact: "clinicalsafetyofficer@example.com"
+clinical_safety_officer_github_handle: "csogithubhandle"
+clinical_safety_officer_name: "Clinical Safety Officer Name"
+clinical_safety_team_name: "Clinical Safety Team Name"
+general_enquiries_email: "enquiries@example.com"
+hazard_log_url: "https://github.com/example-org/your-repo"
+organisation_name: "A Healthcare Technology Company"
+project_name: "Healthcare Technology Project TEST"
+project_short_description: "A Template for a Clinical Safety Management File"
+repository_url: "https://github.com/example-org/your-repo"
+security_responsible_disclosure_email: "security@example.com"

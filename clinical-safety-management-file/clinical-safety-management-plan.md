@@ -21,7 +21,7 @@ This document is for the {{ clinical_safety_team_name }} staff that are involved
 
 ## Scope
 
-This policy applies to the the {{ clinical_safety_team_name }}'s organisation and to all of the {{ clinical_safety_team_name }}'s IT systems. The policy also applies to any local customisations, upgrades or specific configurations made to a Healthcare IT system by the {{ clinical_safety_team_name }}.
+This policy applies to the {{ clinical_safety_team_name }}'s organisation and to all of the {{ clinical_safety_team_name }}'s IT systems. The policy also applies to any local customisations, upgrades or specific configurations made to a Healthcare IT system by the {{ clinical_safety_team_name }}.
 
 If clarification is required of whether any system falls within scope of this CRMS this should be raised with the nominated Clinical Safety Officer (CSO) for clarification. This nominated person provides clinical and organisational leadership on Healthcare IT Patient Safety on behalf of the Organisation.
 
@@ -62,7 +62,7 @@ Governance for patient safety within the Organisation is provided through the fo
 
 ### Clinical Risk Management File (this repository)
 
-The {{ clinical_safety_team_name }} will establish a Clinical Risk Management File (CRMF) for each safety related Healthcare IT system. The purpose of the CRMF is toprovide a central repository where all safety related information pertaining to the Healthcare IT system is stored and controlled. This GitHub repository contains out Clinical Risk Management File.
+The {{ clinical_safety_team_name }} will establish a Clinical Risk Management File (CRMF) for each safety related Healthcare IT system. The purpose of the CRMF is to provide a central repository where all safety related information pertaining to the Healthcare IT system is stored and controlled. This GitHub repository contains out Clinical Risk Management File.
 
 ### Clinical Risk Management Plan (this document)
 
@@ -106,9 +106,9 @@ The workshops will have minutes taken and a copy stored in the [Clinical Risk Ma
 
 If a Healthcare IT solution is deemed not to be safety related then this decision will be formally recorded.
 
-The technical team will advise on the best mechanism for addition of new issues to the the {{ clinical_safety_team_name }}'s project management workflow.
+The technical team will advise on the best mechanism for addition of new issues to the {{ clinical_safety_team_name }}'s project management workflow.
 
-Where any third-party components are used to support the Healthcare IT system then they will be considered in the scope of the hazard identification activities and subsequent risk assessment. Where none areused a positive declaration to this effect will be recorded in the minutes.
+Where any third-party components are used to support the Healthcare IT system then they will be considered in the scope of the hazard identification activities and subsequent risk assessment. Where none are used a positive declaration to this effect will be recorded in the minutes.
 
 All identified hazards will be recorded in the Hazard Log.
 
@@ -118,7 +118,7 @@ the {{ clinical_safety_team_name }}'s Health will conduct Healthcare IT system r
 
 ### Risk Evaluation
 
-The {{ clinical_safety_team_name }} will conduct Healthcare IT system risk evaluation inaccordance with the Risk Management Strategy. The Hazard Log will be updated to capture the risk evaluation.
+The {{ clinical_safety_team_name }} will conduct Healthcare IT system risk evaluation in accordance with the Risk Management Strategy. The Hazard Log will be updated to capture the risk evaluation.
 
 ### Risk Control
 
@@ -132,7 +132,7 @@ To support clinical safety activities undertaken during any deployment phases of
 
 ### Incident Management
 
-Clinical Risk Management activities within the Organisation and theHealthcare IT programmes and services offered are completed within the corporate risk management strategy. As such, clinical safety related incidents are dealt with in a similar manner as other incidents within the organisational such as financial,reputational, technical and other service impacting categories.
+Clinical Risk Management activities within the Organisation and the Healthcare IT programmes and services offered are completed within the corporate risk management strategy. As such, clinical safety related incidents are dealt with in a similar manner as other incidents within the organisational such as financial,reputational, technical and other service impacting categories.
 
 ### Safety Incident Management Process
 
@@ -164,7 +164,7 @@ In assessing competency, the different functional roles required to fully discha
 
 - The first test in establishing competency shall be at the interview stage where potential staff shall be assessed against the above representative roles and agreed job descriptions. Thereafter, competence shall be monitored through the organisation’s established appraisal scheme. Any perceived deficiencies identified during the course of the work or at the appraised stage, especially during probation, shall be addressed immediately, for example, through the assignment of a competent supervisor or the provision of suitable training.
 
-- All registered clinicians involved in safety roles shall, as a minimum,have completed an accredited training course.
+- All registered clinicians involved in safety roles shall, as a minimum, have completed an accredited training course.
 
 ### Training
 
@@ -178,7 +178,7 @@ In assessing competency, the different functional roles required to fully discha
 
 ### Overview
 
-Audits shall be undertaken to ensure that projects are adhering to thedefined safety requirements. Such audits will focus on the **ClinicalSafety Team** and **third-party** suppliers.
+Audits shall be undertaken to ensure that projects are adhering to the defined safety requirements. Such audits will focus on the **ClinicalSafety Team** and **third-party** suppliers.
 
 ### Internal Safety Audits
 

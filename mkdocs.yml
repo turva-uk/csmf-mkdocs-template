@@ -25,10 +25,8 @@ nav:
   - "clinical-safety-management-plan.md"
   - "clinical-safety-case-report.md"
   - "hazard-log.md"
-  - "business-continuity.md"
   - "security.md"
   - "third-party-tools-safety-assmt.md"
-  - "medical-device.md"
   - "download.md"
   - "contact.md"
   - "license.md"
@@ -78,7 +76,6 @@ plugins:
       enabled: false # makes Git Committers optional
   - git-revision-date-localized:
       enable_creation_date: true
-  - macros
   - search
   - with-pdf:
       #cover: false
@@ -116,6 +113,9 @@ plugins:
 
 # additional markdown features
 markdown_extensions:
+  - zensical.extensions.macros:
+      include_yaml:
+        - variables.yml
   - abbr
   - admonition
   - attr_list
@@ -131,27 +131,4 @@ markdown_extensions:
   - toc:
       permalink: true
 
-# Placeholder variables for {{ macros }} are set here
-extra:
-  author_email: "author@example.com"
-  author_name: "Example Author's Name"
-  clinical_safety_management_file_license: "Creative Commons CC-BY-SA4.0"
-  clinical_safety_management_file_version: "1.0.0"
-  clinical_safety_officer_contact: "clinicalsafetyofficer@example.com"
-  clinical_safety_officer_github_handle: "csogithubhandle"
-  clinical_safety_officer_name: "Clinical Safety Officer Name"
-  clinical_safety_team_name: "Clinical Safety Team Name"
-  enable_git_committers: false
-  enable_pdf_export: false
-  hazard_log_url: "https://github.com/clinicians-who-code/clinical-safety-hazard-documentation/issues"
-  organisation_name: "A Healthcare Technology Company"
-  pdf_output_path: "pdf/clinical-safety-management-file.pdf"
-  project_name: "Healthcare Technology Project Name"
-  project_short_description: "A Template for a Clinical Safety Management File"
-  project_slug: "https://github.com/clinicians-who-code/clinical-safety-hazard-documentation"
-  repository_url: "https://github.com/clinicians-who-code/clinical-safety-hazard-documentation"
-  security_responsible_disclosure_email: "securityresponsibledisclosure@example.com"
-  site_author: "Digital Clinical Safety Alliance Team"
-  site_description: "A template for creating clinical safety management files"
-  site_name: "Digital Clinical Safety Alliance"
-  site_url: "https://www.digital-clinical-safety-alliance.org"
+# Placeholder variables for {{ macros }} are defined in variables.yml

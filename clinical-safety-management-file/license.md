@@ -1,6 +1,6 @@
 # License file for the {{ organisation_name }} Clinical Safety Management File
 
-This clinical safety management file is in a public repository. Having completely open clinical safety documention is a good way to increase transparency and to demonstrate genuine attention to clinical safety issues.
+This clinical safety management file is in a public repository. Having completely open clinical safety documentation is a good way to increase transparency and to demonstrate genuine attention to clinical safety issues.
 
 We are happy for it to be reused by others implementing open source projects. If you do reuse any part of this work, you **must** attribute {{ organisation_name }}, the upstream authors (see below), and follow the other terms of this license.
 
@@ -22,11 +22,11 @@ We are happy for it to be reused by others implementing open source projects. If
 
 ### Code and software elements
 
-- All code and software elements of this repository are © Dr Marcus Baw / Baw Medical Ltd 2023 and are released as open source under the permissive MIT License:
+- All code and software elements of this repository are © Dr Marcus Baw / Baw Medical Ltd 2023-2026 and are released as open source under the permissive MIT License:
 
 > MIT License
 >
-> Copyright © 2023 Dr Marcus Baw and Baw Medical Ltd
+> Copyright © 2023-2026 Dr Marcus Baw and Baw Medical Ltd
 >
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 > of this software and associated documentation files (the "Software"), to deal
@@ -51,7 +51,7 @@ We are happy for it to be reused by others implementing open source projects. If
 - **ATTRIBUTION NOTICE**: **Contains public sector information licensed under the Open Government Licence v3.0.** Upstream authorship of some of the text of the Clinical Safety documentation is acknowledged as being the work of **NHS Digital**, in their freely downloadable templates for clinical safety documentation. These documents are available [on NHS Digital's website](https://digital.nhs.uk/services/clinical-safety/documentation#clinical-risk-management) but there is no explicit license applied. Copyright and licensing are not mentioned in the documents or the web pages.
   We have therefore assumed in that NHS Digital's favour that they would be within their rights to assert a copyright on these materials and that, in line with recent common practice, the documents would be reasonably made available on an [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/), which is compatible with the [Creative Commons CC-BY](https://choosealicense.com/licenses/cc-by-4.0/) and thus requires attribution. Here it is.
 
-- The extensive downstream modifications of the NHS Digital templates, and numerous additions are the work of Dr Marcus Baw and are Copyright © 2023 Dr Marcus Baw and Baw Medical Ltd, being made openly available using the [Creative Commons CC-BY-SA-4.0](https://choosealicense.com/licenses/cc-by-sa-4.0/) license, which ass a Share-alike clause to the CC-BY (attribution only) license.
+- The extensive downstream modifications of the NHS Digital templates, and numerous additions are the work of Dr Marcus Baw and are Copyright © 2023 Dr Marcus Baw and Baw Medical Ltd, being made openly available using the [Creative Commons CC-BY-SA-4.0](https://choosealicense.com/licenses/cc-by-sa-4.0/) license, which adds a Share-alike clause to the CC-BY (attribution only) license.
 
 > ## Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 >

@@ -1,6 +1,6 @@
 # Security
 
-Security is taken extremely seriously by this project and we are complying with the [Data Security and Protection Toolkit (DSPT)](https://digital.nhs.uk/about-nhs-digital/our-work/nhs-digital-data-and-technology-standards/framework/beta---data-security-standards) which is part of latest NHS Digital Data Security Standards.
+Security is taken extremely seriously by this project and we are complying with the [Data Security and Protection Toolkit (DSPT)](https://digital.nhs.uk/about-nhs-digital/our-work/nhs-digital-data-and-technology-standards/framework/beta---data-security-standards) which is part of the latest NHS Digital Data Security Standards.
 
 ## Deployment Security 'Code Chain'
 
@@ -20,7 +20,7 @@ Also within these practices are measures which ensure that the code which is dep
 
 ### GitHub Repository
 
-* 'Pushes' of new code to the GitHub repositories are authenticated using **SSH Keys** which are secure, long, cryptographic tokens held on the computers used to develop the growth charts. Use of the token requires a further password, so possession of the computer alone is not enough to use the computer's SSH key to make a push of unauthorised code to GitHub.
+* 'Pushes' of new code to the GitHub repositories are authenticated using **SSH Keys** which are secure, long, cryptographic tokens held on the computers used to develop {{ project_name }}. Use of the token requires a further password, so possession of the computer alone is not enough to use the computer's SSH key to make a push of unauthorised code to GitHub.
 
 * **Signed Commits** - Git commits of code are ['signed' using GPG](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) (Gnu Privacy Guard - an open source implementation of the PGP protocol). This is a further attestation to the correct identity of the committer of the code.
 
@@ -36,7 +36,7 @@ Also within these practices are measures which ensure that the code which is dep
 
 * New code is never deployed to the `live` branch. Safety mechanisms on the relevant branches of our GitHub repositories prevent direct 'pushes' of code. Instead, new features must be developed on the `development` branch or in a branch created specially for that feature.
 
-* From `development` or feature branches, code is 'promoted', following successful passing of tests for correct operation, to a `staging` branch, which allows for further testing, and where necessary review and confirmation of interoperation with other components of the dGC products.
+* From `development` or feature branches, code is 'promoted', following successful passing of tests for correct operation, to a `staging` branch, which allows for further testing, and where necessary review and confirmation of interoperation with other components of {{ project_name }}.
 
 * Once further user acceptance testing and stability tests are satisfactorily passed, this code can be merged into the `live` branch.
 
@@ -44,4 +44,4 @@ Also within these practices are measures which ensure that the code which is dep
 
 ### Cyber Essentials
 
-Insert your Cyber Essential Certificate if available here
+Insert your Cyber Essentials Certificate if available here

@@ -1,0 +1,21 @@
+# Clinical Safety Template Cleanup Worklist
+
+- [ ] Critical: Remove RCPCH Digital Growth Charts carry-over references in `clinical-safety-management-file/medical-device.md` (lines 3, 5, 11).
+- [ ] Critical: Replace/remove upstream Baw Medical and Dr Marcus Baw licensing carry-over text in `clinical-safety-management-file/license.md` (lines 9, 11, 25, 29, 54).
+- [ ] High: Replace previous-project wording (`growth charts`, `dGC products`) in `clinical-safety-management-file/security.md` (lines 23, 39).
+- [ ] High: Replace hardcoded personal handle `@pacharanero` with a template-safe placeholder in `clinical-safety-management-file/hazard-log.md` (line 50).
+- [ ] High: Remove upstream provenance statement in `clinical-safety-management-file/clinical-safety-management-system.md` (line 15).
+- [ ] Medium: Replace placeholder-only text in `clinical-safety-management-file/clinical-safety-case-report.md` (line 3).
+- [ ] Medium: Add content or template placeholder to currently empty file `clinical-safety-management-file/third-party-tools-safety-assmt.md` (line 1).
+- [ ] Medium: Add substantive content/template placeholders under `General Enquiries` in `clinical-safety-management-file/contact.md` (line 4).
+- [ ] Medium: Add substantive content/template placeholders in `clinical-safety-management-file/business-continuity.md` (lines 1, 3).
+- [ ] Medium: Resolve duplicate H1 headings in `clinical-safety-management-file/hazard-log.md` (lines 1, 3).
+- [ ] Medium: Remove dangling empty bullet in `clinical-safety-management-file/clinical-safety-management-system.md` (line 32).
+- [ ] Medium: Fix broken/unfinished links in `clinical-safety-management-file/medical-device.md` (lines 23, 28, 29, 30).
+- [ ] Low: Fix spelling `documention` -> `documentation` in `clinical-safety-management-file/license.md` (line 3).
+- [ ] Low: Fix wording typo `which ass a Share-alike clause` in `clinical-safety-management-file/license.md` (line 54).
+- [ ] Low: Fix typo cluster `NHS DIgital had ans still has...` in `clinical-safety-management-file/hazard-log.md` (line 22).
+- [ ] Low: Fix `MarkDown` -> `Markdown` in `clinical-safety-management-file/index.md` (line 19).
+- [ ] Low: Fix grammar in `clinical-safety-management-file/security.md` line 3 (`part of latest` -> `part of the latest` or equivalent rewrite).
+- [ ] Low: Fix wording mismatch under Cyber Essentials in `clinical-safety-management-file/security.md` (lines 45, 47).
+- [ ] Low: Correct spacing/grammar issues in `clinical-safety-management-file/clinical-safety-management-plan.md` (lines 24, 65, 109, 111, 121, 135, 167, 181).

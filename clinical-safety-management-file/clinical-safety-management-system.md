@@ -12,8 +12,6 @@
 
 - Refer to the document's Releases section in GitHub to see a history of releases.
 
-- This document was created from the Clinical Safety Management Plan templates provided on the NHS Digital Website.
-
 ### Reviewers and Process
 
 This document must be reviewed by:
@@ -29,7 +27,6 @@ This document must be **approved** by:
 - Following satisfactory review by the Reviewers, the nominated Approvers merge the pull request into the main branch of the code.
 
 - The current version of this document will always be selected as the 'default branch' in GitHub
--
 
 ### Related Documents
 

@@ -1,3 +1,0 @@
-## Business Continuity
-
-## Disaster Recovery
